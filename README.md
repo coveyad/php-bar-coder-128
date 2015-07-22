@@ -8,8 +8,10 @@ Many excellent implementations exist for these same purposes, so why would anyon
 Because...
 
 • php-bar-coder-128 is tiny, simple, and easy to adjust if something isn't done to taste
+
 • php-bar-coder-128's included font has bar codes from 0x0020-0x007e / 0x00c3-0x00cf, and also from 
   0xf020-0xf07e / 0xf0c3-0xf0cf (this seems to help it work correctly across various platforms)
+  
 • php-bar-coder-128 does not create images (all php-bar-coder-128 bar codes are strings displayed using its
   included font FreeCode128)
   
